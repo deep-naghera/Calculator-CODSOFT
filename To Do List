@@ -24,13 +24,13 @@ def update_task():
     except IndexError:
         pass
     
-root = tk.Tk()  # Fixed typo: changed tk.TK() to tk.Tk()
+root = tk.Tk()
 root.title("TO-DO List - CODSOFT")
 
 frame = tk.Frame(root)
 frame.pack(pady=10)
 
-listbox = tk.Listbox(  # Fixed typo: changed tk.listbox to tk.Listbox
+listbox = tk.Listbox(
     frame,
     width=50,
     height=10,
